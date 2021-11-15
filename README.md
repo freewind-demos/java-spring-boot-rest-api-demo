@@ -10,12 +10,12 @@ java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```
 
 ```
-http POST http://localhost:8080/api/messages text=aaa
-http POST http://localhost:8080/api/messages text=bbb
+http POST https://agile-wave-92007.herokuapp.com/api/messages text=aaa
+http POST https://agile-wave-92007.herokuapp.com/api/messages text=bbb
 
-http POST http://localhost:8080/api/messages text=aa##bb
+http POST https://agile-wave-92007.herokuapp.com/api/messages text=aa##bb
 
-http GET http://localhost:8080/api/messages
+http GET https://agile-wave-92007.herokuapp.com/api/messages
 
-http GET http://localhost:8080/api/messages/0
+http GET https://agile-wave-92007.herokuapp.com/api/messages/0
 ```
